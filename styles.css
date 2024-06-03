@@ -1,0 +1,160 @@
+/* Existing styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: rgba(0, 68, 204, 0.85);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    background-color: rgba(0, 51, 160, 0.85);
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 68, 204, 0.85);
+}
+
+main {
+    flex: 1;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    color: #0044cc;
+    cursor: pointer;
+    padding: 0.5rem;
+    border: 1px solid #0044cc;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+section h2:hover {
+    background-color: #0044cc;
+    color: white;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 0.5rem;
+}
+
+section ul li {
+    margin-bottom: 0.5rem;
+}
+
+section ul li a {
+    text-decoration: none;
+    color: #0033a0;
+    padding: 0.5rem;
+    display: block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 5px;
+}
+
+section ul li a:hover {
+    background-color: #0033a0;
+    color: white;
+}
+
+footer {
+    background-color: rgba(0, 51, 160, 0.85);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.hidden {
+    display: none;
+}
+
+/* New styles */
+#search-bar {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    box-sizing: border-box;
+}
+
+.upload-notes {
+    margin-left: 1rem;
+}
+
+.forum {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.posts {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.new-post {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.post-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.post-button:hover {
+    background-color: #0056b3;
+}
+
+a {
+    text-decoration: none;
+    color: #00a050;
+    padding: 0.5rem;
+    display: block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 5px;
+}
